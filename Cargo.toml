@@ -3,9 +3,13 @@ authors = ["Machtan <jako3047@gmail.com>"]
 name = "kor"
 version = "0.1.0"
 
+[[bin]]
+doc = false
+name = "kor"
+
 [dependencies]
-lazy_static = "0.2.8"
-regex = "0.2.2"
-unicode-normalization = "0.1.4"
+lazy_static = "0.2"
+regex = "0.2"
+unicode-normalization = "0.1"
 hangeul2 = { path = "../hangeul2" }
 argonaut = { path = "../argonaut" }
